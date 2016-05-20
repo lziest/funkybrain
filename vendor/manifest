@@ -1,0 +1,11 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/lziest/mood",
+			"repository": "https://github.com/lziest/mood",
+			"revision": "035bfe2bca24770826603e54a79bba6a828905a4",
+			"branch": "master"
+		}
+	]
+}
