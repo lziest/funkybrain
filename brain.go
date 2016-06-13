@@ -7,6 +7,5 @@ import (
 )
 
 func Mood() string {
-	fmt.Print(mood.Status)
 	return mood.Status
 }
