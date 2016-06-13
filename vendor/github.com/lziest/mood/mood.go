@@ -1,3 +1,5 @@
+// package mood hsows a example of a exported method whose behavior
+// is controlled by package exported variable.
 package mood
 
 import (
@@ -5,12 +7,14 @@ import (
 	"fmt"
 )
 
-var Status = "sad"
+// Status is a simple string
+var Status = "happy"
 
 func init() {
-	// Only define flag once.
-	if flag.Lookup("mood") == nil {
-		flag.StringVar(&Status, "mood", "sad", "mood is a string")
-	}
-	fmt.Printf("mood.Status ptr = %p\n", &Status)
+	fmt.Printf("init(): mood.Status ptr = %p\n", &Status)
+}
+
+// Show shows mood status
+func Show() {
+	fmt.Println("I'm", Status)
 }
