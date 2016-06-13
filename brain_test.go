@@ -5,7 +5,7 @@ import (
 )
 
 func TestMood(t *testing.T) {
-	if Mood() != "sad" {
-		t.Fatal("Not sad, now I am sad")
+	if Mood() != "happy" {
+		t.Fatal("Not happy, now I am sad")
 	}
 }

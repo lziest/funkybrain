@@ -1,8 +1,6 @@
 package funkybrain
 
 import (
-	"fmt"
-
 	"github.com/lziest/mood"
 )
 
